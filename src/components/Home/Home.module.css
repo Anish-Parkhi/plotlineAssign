@@ -1,0 +1,88 @@
+.tooltipContainer {
+  width: 20%;
+  text-align: center;
+  padding: 1rem;
+  margin: auto;
+  color: black;
+  background-color: white;
+  margin: 0.5rem;
+}
+.tooltipWrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.tooltipWrapper :hover {
+  color: black;
+}
+.buttonContainer {
+  flex-basis: 50%;
+  justify-content: center;
+  margin: auto;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex-basis: 50%;
+  background-color: #f5f5f5;
+  margin: 5rem;
+  padding: 5rem;
+  border-radius: 1.5rem;
+}
+.inputInnerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.inputInnerContainer label {
+  text-align: left;
+  flex-basis: 30%;
+  font-size: 1.6rem;
+  align-self: flex-start;
+}
+
+.inputInnerContainer input {
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  border: 1px solid grey;
+}
+
+.inputInnerContainerSizePadding {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.3rem;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.7rem;
+  justify-content: space-between;
+}
+
+.inputInnerContainerSizePadding input {
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  border: 1px solid grey;
+  width: 85%;
+}
+.inputInnerContainerSize {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.8rem;
+}
+.inputInnerContainerPadding {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.8rem;
+}
+.dropDown {
+  padding: 1rem;
+  font-size: 1rem;
+}
+.elementsDropDown {
+  padding: 1rem;
+  font-size: 1rem;
+}
